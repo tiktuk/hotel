@@ -107,6 +107,7 @@ hotel add 'python -m SimpleHTTPServer $PORT'           # static file server (Pyt
 hotel add 'php -S 127.0.0.1:$PORT'                     # PHP
 hotel add 'docker-compose up'                          # docker-compose
 hotel add 'python manage.py runserver 127.0.0.1:$PORT' # Django
+hotel add '~/.virtualenvs/env/bin/python manage.py runserver 127.0.0.1:$PORT' # Django in virtualenv
 # ...
 ```
 
